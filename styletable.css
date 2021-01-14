@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,600,600italic,700,700italic);
+
+
+header {
+		position: relative;
+}
+
+.hide {
+		display: none;
+}
+
+.tab-content {
+		padding:25px;
+}
+
+#material-tabs {
+		position: relative;
+		display: block;
+	  padding:0;
+		border-bottom: 1px solid #e0e0e0;
+}
+
+#material-tabs>a {
+		position: relative;
+	 display:inline-block;
+		text-decoration: none;
+		padding: 22px;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 600;
+		color: #424f5a;
+		text-align: center;
+	
+}
+
+#material-tabs>a.active {
+		font-weight: 700;
+		outline:none;
+}
+
+#material-tabs>a:not(.active):hover {
+		background-color: inherit;
+		color: #7c848a;
+}
+
+@media only screen and (max-width: 520px) {
+		.nav-tabs#material-tabs>li>a {
+				font-size: 11px;
+		}
+}
+#material-tabs1 {
+	position: relative;
+	display: block;
+  padding:0;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#material-tabs1>a {
+	position: relative;
+ display:inline-block;
+	text-decoration: none;
+	padding: 22px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	color: #424f5a;
+	text-align: center;
+
+}
+
+#material-tabs1>a.active {
+	font-weight: 700;
+	outline:none;
+}
+
+#material-tabs1>a:not(.active):hover {
+	background-color: inherit;
+	color: #7c848a;
+}
+
+@media only screen and (max-width: 520px) {
+	.nav-tabs#material-tabs1>li>a {
+			font-size: 11px;
+	}
+}
+.yellow-bar {
+	
+		position: absolute;
+		z-index: 10;
+		bottom: 0;
+		height: 3px;
+		background: #FFF;
+		display: block;
+		left: 0;
+		transition: left .2s ease;
+		-webkit-transition: left .2s ease;
+}
+
+#tab1-tab.active ~ span.yellow-bar {
+		left: 10px;
+		width: 270px;
+}
+
+#tab2-tab.active ~ span.yellow-bar {
+		left:301px;
+		width: 242px;
+}
+.yellow-barmobile {
+	
+	position: absolute;
+	z-index: 10;
+	bottom: 0;
+	height: 3px;
+	background: #FFF;
+	display: block;
+	left: 0;
+	transition: left .2s ease;
+	-webkit-transition: left .2s ease;
+}
+
+#tab3-tab.active ~ span.yellow-barmobile {
+	left: 10px;
+	width: 132px;
+}
+
+#tab4-tab.active ~ span.yellow-barmobile {
+	left:160px;
+	width: 122px;
+}
+
+table {
+	width: 80%;
+	margin: auto;
+}
+
+table, th, td {
+	border: 1px solid #fff;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 15px;
+	color: #fff;
+}

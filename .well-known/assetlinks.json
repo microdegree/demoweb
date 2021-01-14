@@ -1,0 +1,19 @@
+[{
+        "relation": ["delegate_permission/common.get_login_creds"],
+        "target": {
+            "namespace": "web",
+            "site": "https://www.microdegree.work"
+        }
+    },
+    {
+        "relation": ["delegate_permission/common.get_login_creds"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "microdegree.work.learnerapp",
+            "sha256_cert_fingerprints": [
+
+                "1D:3E:1A:B4:DF:B1:CE:3E:AE:10:3F:EF:56:63:A6:EB:D4:B5:78:0F:6A:47:78:67:80:7C:38:9C:02:C7:C9:C9"
+            ]
+        }
+    }
+]
